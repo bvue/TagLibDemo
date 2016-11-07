@@ -1,0 +1,13 @@
+<taglib>
+    <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>Example TLD</short-name>
+    <!--URI can be anything, even fake.
+    URI used in the jsps that use the tag lib-->
+    <uri>http://mysite.edu/fakesite</uri>
+    <tag>
+        <name>Hello</name>
+        <tag-class>edu.matc.taglibdemo.HelloWorldTag</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+</taglib>
